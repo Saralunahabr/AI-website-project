@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Where the human check sits</title>
+  <desc id="d">A request goes to AI or automation, then through a human check, then to a real-world effect. Three cases hang from the human check.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#1b1b1f"/>
+    </marker>
+  </defs>
+  <rect width="760" height="300" fill="#ffffff"/>
+  <g font-family="system-ui, Segoe UI, Roboto, sans-serif" font-size="16" fill="#1b1b1f" text-anchor="middle">
+    <rect x="10" y="40" width="150" height="60" rx="8" fill="#eef1f4" stroke="#1b1b1f" stroke-width="2"/>
+    <text x="85" y="76">Request</text>
+
+    <rect x="200" y="40" width="150" height="60" rx="8" fill="#eef1f4" stroke="#1b1b1f" stroke-width="2"/>
+    <text x="275" y="76">AI or automation</text>
+
+    <rect x="390" y="40" width="150" height="60" rx="8" fill="#fff3d6" stroke="#7a3e00" stroke-width="4"/>
+    <text x="465" y="76" font-weight="700">Human check</text>
+
+    <rect x="580" y="40" width="170" height="60" rx="8" fill="#eef1f4" stroke="#1b1b1f" stroke-width="2"/>
+    <text x="665" y="76">Real-world effect</text>
+
+    <line x1="160" y1="70" x2="196" y2="70" stroke="#1b1b1f" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="350" y1="70" x2="386" y2="70" stroke="#1b1b1f" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="540" y1="70" x2="576" y2="70" stroke="#1b1b1f" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <line x1="465" y1="100" x2="125" y2="190" stroke="#7a3e00" stroke-width="2" stroke-dasharray="6 4"/>
+    <line x1="465" y1="100" x2="380" y2="190" stroke="#7a3e00" stroke-width="2" stroke-dasharray="6 4"/>
+    <line x1="465" y1="100" x2="635" y2="190" stroke="#7a3e00" stroke-width="2" stroke-dasharray="6 4"/>
+
+    <rect x="10" y="190" width="230" height="90" rx="8" fill="#ffffff" stroke="#1b1b1f" stroke-width="2"/>
+    <text x="125" y="222" font-weight="700">Arup, 2024</text>
+    <text x="125" y="248">No independent callback</text>
+
+    <rect x="265" y="190" width="230" height="90" rx="8" fill="#ffffff" stroke="#1b1b1f" stroke-width="2"/>
+    <text x="380" y="222" font-weight="700">AWS, 2025</text>
+    <text x="380" y="248">Who set the permissions?</text>
+
+    <rect x="520" y="190" width="230" height="90" rx="8" fill="#ffffff" stroke="#1b1b1f" stroke-width="2"/>
+    <text x="635" y="222" font-weight="700">Hugging Face, 2026</text>
+    <text x="635" y="248">The test sandbox did not hold</text>
+  </g>
+</svg>
